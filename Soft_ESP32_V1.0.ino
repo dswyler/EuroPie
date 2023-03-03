@@ -90,7 +90,7 @@ void setup() {
 
   xTaskCreatePinnedToCore(enviarData,"enviar",10000,NULL,0,&enviar,0);  //esto seria para usar el segundo core (comentar para deshabilitar)
 
-  //USBSerial.write(hola);
+  //USBSerial.write(hola);  //Seguridad? Handshake? algo asi xD
 }
 
 
